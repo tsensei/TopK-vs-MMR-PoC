@@ -1,0 +1,22 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.0"
+  },
+  "dependencies": {
+    "@langchain/openai": "^0.0.28",
+    "dotenv": "^16.0.3"
+  }
+}
