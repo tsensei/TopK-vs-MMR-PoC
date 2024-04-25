@@ -5,9 +5,8 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "start:build": "tsc -w",
-    "start:run": "nodemon build/app.js",
-    "start": "concurrently npm:start:*"
+    "build": "tsc ",
+    "start": "node build/app.js"
   },
   "keywords": [],
   "author": "",
